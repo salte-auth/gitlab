@@ -1,6 +1,7 @@
 {
   "name": "@salte-auth/gitlab",
   "version": "3.0.0",
+  "browser": "dist/gitlab.min.js",
   "main": "dist/gitlab.min.js",
   "module": "dist/gitlab.min.mjs",
   "types": "dist/gitlab.d.ts",
