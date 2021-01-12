@@ -9,11 +9,11 @@ export class GitLab extends OAuth2Provider {
     });
   }
 
-  public get name() {
+  public get name(): string {
     return 'gitlab';
   }
 
-  public get login() {
+  public get login(): string {
     return `${this.config.url}/oauth/authorize`;
   }
 }
